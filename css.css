@@ -1,0 +1,75 @@
+body{
+  background-color: #f3f2f2;
+}
+.rounded{
+  height: 400px;
+  width: 600px;
+}
+img{
+  margin: 0px;
+  height: 50%;
+  padding: 0;
+}
+.col-lg-4{
+  padding-left: 12%;
+}
+.col-sm-3{
+  padding-left: 3%;
+}
+.row{
+  max-height: 150px;
+}
+.partners{
+  width: 90px;
+  height: 15px;
+  margin-left: 10px;
+}
+h1{
+  text-align: center;
+}
+.partners-1{
+  width: 50px;
+  height: 15px;
+  margin-left: 10px;
+}
+input[type=text] {
+  width: 350px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.position-relative{
+  height: 400px;
+  width: 400px;
+}
+.h1{
+  font-family: 'Outfit', sans-serif;
+  font-size: 30px;
+  width: 1500px;
+  margin: 0;
+}
+h2{
+  text-align: center;
+}
+.container-fluid_S1{
+  font-size: 30px;
+  padding-left: 17px;
+}
+span{
+  font-weight: 700;
+  padding-left: 10px;
+}
+.table{
+  position: relative; bottom: 300px; left: 55%;
+}
+nav {
+  font-family: 'Outfit', sans-serif;
+  animation: bounce-top 0.3s;
+}
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+}
